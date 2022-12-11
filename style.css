@@ -1,0 +1,149 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.header-image {
+    height: 300px;
+    width: 100%;
+    }
+
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 30px;
+    float:inline-end;
+    font-style: italic;
+    background-color: peru;
+    }
+
+
+        
+/*div*/
+.div-header-image{
+    border: 10px solid peru;
+    
+    }
+
+
+h1 { 
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+/*for mobile phone*/
+@media only screen and (max-width: 600px) {
+    
+    body {
+      background-color: darkslategrey;
+    }
+
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  /* For desktop: */
+  @media only screen and (min-width: 768px) {  
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }}
+  
+  /*pseudo classes*/
+
+
+
+/* visited link */
+a.video:visited {
+    color: red;
+    font-style: italic;
+  }
+
+/* clicked link */
+a.contact:active {
+    color: yellow;
+  }
+
+a.solar-system:active {
+    color: yellow;
+  }
+/* mouse over link */
+a.about:hover {
+    color:lightblue;
+    background-color:#555 ;
+
+}
+
+li {
+    display: inline;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li a {
+    display: inline;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+  nav {
+    background: darkblue;
+    color: white;
+    display: flex;
+  }
+  
+  nav ul {
+    background: #555;
+    display: flex;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav li {
+    margin: 0 30px;
+    background: #55f;
+    padding: 5px;
+  }
+  
+  nav li:hover {
+    background: lightblue;
+    color: black;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .current-page {
+    background: #ddf;
+    color: black;
+  }
+  
+ 
